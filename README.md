@@ -1,12 +1,12 @@
-# 🎬 Pixar Films Analysis – Power BI Dashboard
+#  Pixar Films Analysis – Power BI Dashboard
 
-## 📊 Project Overview
+##  Project Overview
 This project presents an **interactive Power BI dashboard** that analyzes the performance of **Pixar Animation Studios films**.  
 It visualizes insights related to **box office revenue, ratings, genres, awards, and crew involvement** to understand trends and success factors across Pixar's filmography.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze **box office performance** of Pixar films.
 - Explore **audience and critic ratings** (IMDb, Metacritic, Rotten Tomatoes).
 - Identify **top grossing movies** and ROI.
@@ -15,7 +15,7 @@ It visualizes insights related to **box office revenue, ratings, genres, awards,
 
 ---
 
-## 📁 Dataset Tables
+##  Dataset Tables
 The dashboard uses the following datasets:
 
 - **pixar_films** – film details (title, release date, runtime, rating)
@@ -28,12 +28,12 @@ The dashboard uses the following datasets:
 
 ---
 
-## 🧱 Data Model
+##  Data Model
 The project follows a **snowflake schema** with **pixar_films** as the central table connected to other datasets through relationships using the **film** column.
 
 ---
 
-## 🧮 DAX Measures
+##  DAX Measures
 DAX measures were used to calculate key metrics such as:
 
 - **Total Revenue**
@@ -47,9 +47,9 @@ These measures power **dynamic visuals and KPIs** in the dashboard.
 
 ---
 
-## 📊 Dashboard Pages
+##  Dashboard Pages
 
-### 🔹 Overview Page
+### 1. Overview Page
 Provides a summary of Pixar films including:
 
 - KPI cards (Revenue, ROI, IMDb Score, Budget)
@@ -58,7 +58,7 @@ Provides a summary of Pixar films including:
 - Film rating breakdown (G vs PG)
 - Public ratings table
 
-### 🔹 Film Details Page
+### 2. Film Details Page
 Displays detailed insights for each film including:
 
 - Film poster and description
@@ -68,11 +68,11 @@ Displays detailed insights for each film including:
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - **Microsoft Power BI**
 - **Power Query**
 - **DAX (Data Analysis Expressions)**
 
 ---
 
-⭐ If you find this project useful, feel free to **star the repository!**
+ If you find this project useful, feel free to **star the repository!**
